@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:background="@drawable/menuback"
+    tools:context=".MainActivity">
+    
+    <TextView 
+  	android:id="@+id/menuheader"
+  	android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/app_name"
+    android:textSize="40sp"
+    android:textStyle="bold"
+   >
+	</TextView>
+    
+    
+    <Button 
+    android:id="@+id/startgameButton" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:text="@string/StartGame"
+    android:layout_margin="15dp"
+    android:textSize="17sp"> 
+   </Button>
+   
+    <Button
+    android:id="@+id/top5Button" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:text="@string/top5"
+    android:layout_margin="15dp"
+    android:textSize="17sp"> 
+	</Button>
+
+    <Button 
+    android:id="@+id/LeaderboardsButton" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/leaderboards" 
+    android:layout_margin="15dp"
+    android:textSize="17sp"> 
+	</Button>
+	
+    <Button 
+    android:id="@+id/achievementsButton" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/achievements" 
+    android:layout_margin="15dp"
+    android:textSize="17sp"> 
+	</Button>
+	
+    <!-- sign-in button -->
+<com.google.android.gms.common.SignInButton
+    android:id="@+id/sign_in_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp" />
+
+<!-- sign-out button -->
+<Button
+    android:id="@+id/sign_out_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/signout" 
+    android:visibility="gone" 
+    android:layout_margin="20dp"/>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flag Quiz Game</string>
+    <string name="choices">Select Number of Choices</string>
+	<string name="correct">Correct</string>
+	<string name="guess_country">Guess the Country</string>
+	<string name="guesses">guesses</string>
+	<string name="incorrect_answer">Incorrect!</string>
+	<string name="more_regions_title">More Regions Required</string>
+	<string name="more_regions_message">There are not enough countries in the selected regions. Please select more regions.</string>
+	<string name="of">of</string>
+	<string name="ok">OK</string>
+	<string name="question">Question</string>
+	<string name="quiz_title">Ten Question Flag Quiz</string>
+	<string name="regions">Select Regions</string>
+	<string name="reset_quiz">Reset Quiz</string>
+	
+	<string name="first_guess">first guesses</string>
+	<string name="final_score">Your Final Score: </string>
+	<string name="bonusquestion">Bonus! Guess the capital..</string>
+	
+	<string name="capitalButton">Check</string>
+	<string name="LearnMore">Learn More..</string>
+	<string name="nextFlag">Next Flag</string>
+	
+	<string name="StartGame">Start Game</string>
+	<string name="top5">Local Scores</string>
+	<string name="leaderboards">Leaderboards</string>
+	<string name="achievements">Achievements</string>
+	
+	<string name="stay">Stay</string>
+	<string name="signout">Sign Out</string>
+	
+	<string-array name="regionsList">
+	    <item>Africa</item>
+	    <item>Asia</item>
+	    <item>Europe</item>
+	    <item>North_America</item>
+	    <item>Oceania</item>
+	    <item>South_America</item>
+	</string-array>
+	
+	<string-array name="guessesList">
+	    <item>3</item>
+	    <item>6</item>
+	    <item>9</item>
+	</string-array>
+	
+	<string name="app_id">350065997896</string>
+	
+	<string name="lead_id">CgkIyPC8jJgKEAIQBg</string>
+	
+	<string name="ach_id1">CgkIyPC8jJgKEAIQAQ</string>
+	<string name="ach_id2">CgkIyPC8jJgKEAIQAg</string>
+	<string name="ach_id3">CgkIyPC8jJgKEAIQAw</string>
+	<string name="ach_id4">CgkIyPC8jJgKEAIQBA</string>
+	<string name="ach_id5">CgkIyPC8jJgKEAIQBQ</string>
+	
+</resources>
